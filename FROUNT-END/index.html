@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gato Explorer 🐱</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <span class="emoji">🐱</span>
+      <h1>Gato Explorer</h1>
+      <p>Descubra raças de gatos e encontre seu novo favorito!</p>
+    </header>
+
+    <section class="painel">
+      <button id="btnAleatorio">🎲 Gato aleatório</button>
+
+      <div class="busca">
+        <input
+          type="text"
+          id="categoria"
+          placeholder="Ex.: siames, persa, sphynx..."
+        >
+        <button id="btnBuscar">🔎 Buscar raça</button>
+      </div>
+    </section>
+
+    <section class="resultado">
+      <p id="mensagem">Clique em um botão para explorar os gatos!</p>
+      <img id="fotoGato" alt="Foto do gato escolhido" hidden>
+      <h2 id="nomeCategoria"></h2>
+    </section>
+
+    <footer>Feito com 💜 para quem ama gatos.</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
